@@ -14,15 +14,28 @@ body {
     font-size: 16px;
 }
 
-/* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */  /* NAVBAR START */  /* NAVBAR START */
+/* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ 
+
+.popup-image-resize {
+    height: 30px;
+    width: 30px;
+}
+
+.flipped-image {
+    transform: rotate(180deg);
+}
+
+.modal-body {
+    line-height: 2;
+}
+
+/* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ 
+
+/* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */  /* NAVBAR START */  /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */
 
 .navbar-brand {
     font-size: 2em;
     font-weight: 500;
-}
-
-.nav-link {
-    color: var(--light) !important;
 }
 
 .nav-link:hover {
@@ -31,9 +44,8 @@ body {
 }
 
 .bi {
-    color: var(--light);
     display: block;
     margin: auto;
 }
 
-/* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ 
+/* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ 
