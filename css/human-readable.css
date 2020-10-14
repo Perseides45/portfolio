@@ -1,51 +1,113 @@
 :root {
-    --light: #f8f9fa;
-    --dark: #343a40;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	--light: #f8f9fa;
+	--dark: #343a40;
+	--orange: #ff961a;
 }
 
 body {
-    font-family: 'Asap', sans-serif;
-    font-size: 16px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Asap", sans-serif;
+	font-size: 16px;
 }
 
-/* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ /* POPUP START */ 
+/* BOOSTRAP MODAL */
 
 .popup-image-resize {
-    height: 30px;
-    width: 30px;
+	height: 30px;
+	width: 30px;
 }
 
 .flipped-image {
-    transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .modal-body {
-    line-height: 2;
+	line-height: 2;
 }
 
-/* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ /* POPUP END */ 
+/* BOOSTRAP MODAL */
 
-/* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */  /* NAVBAR START */  /* NAVBAR START */ /* NAVBAR START */ /* NAVBAR START */
+/* NAVBAR COMMONS */
 
 .navbar-brand {
-    font-size: 2em;
-    font-weight: 500;
+	font-size: 2em;
+	font-weight: 500;
+	cursor: default;
 }
 
-.nav-link:hover {
-    background-color: rgba(128, 128, 128, 0.692);
-    border-radius: 10px;
+.nav-link {
+	border: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	border-radius: 10px;
 }
 
 .bi {
-    display: block;
-    margin: auto;
+	display: block;
+	margin: auto;
 }
 
-/* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ /* NAVBAR END */ 
+/* NAVBAR COMMONS */
+
+/* NAVBAR LIGHT */
+
+a.text-dark:focus,
+a.text-dark:hover {
+	border-color: black;
+	color: black !important;
+	transition: color 1s ease;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand {
+	color: black;
+	transition: color 1s ease;
+}
+
+/* NAVBAR - LIGHT */
+
+/* DARK - LIGHT - TRANSITION */
+
+.bg-dark,
+.bg-light {
+	transition: background-color 1s ease;
+}
+
+.text-dark,
+.text-light {
+	transition: color 1s ease;
+}
+
+.navbar-light,
+.navbar-dark {
+	transition: background-color 1s ease;
+}
+
+/* DARK - LIGHT - TRANSITION */
+
+/* NAVBAR - DARK */
+
+header {
+	border-bottom: 2px solid black;
+}
+
+a.text-light:focus,
+a.text-light:hover {
+	color: white !important;
+	transition: color 1s ease;
+	border: 2px solid var(--orange);
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand {
+	color: var(--orange);
+	transition: color 1s ease;
+}
+
+/* NAVBAR - DARK */
